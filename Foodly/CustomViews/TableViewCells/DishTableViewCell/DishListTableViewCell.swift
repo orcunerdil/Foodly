@@ -8,16 +8,25 @@
 import UIKit
 
 class DishListTableViewCell: UITableViewCell {
+    
+    static let identifer = String(describing: DishListTableViewCell.self)
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var titleLbl: UILabel!
+    @IBOutlet weak var descriptionLbl: UILabel!
+    
+    func setup(dish: Dish) {
+        imgView.kf.setImage(with: dish.image?.asURL)
+        titleLbl.text = dish.name
+        descriptionLbl.text = dish.description
+        
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    func setup (order: Order) {
+        imgView.kf.setImage(with: order.dish?.image?.asURL)
+        titleLbl.text = order.dish?.name
+        descriptionLbl.text = order.name
     }
     
 }

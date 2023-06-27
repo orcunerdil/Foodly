@@ -7,15 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067414201A81411BE771CC3E /* Pods_Foodly_FoodlyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96977EDDA152ADA826047C00 /* Pods_Foodly_FoodlyUITests.framework */; };
+		4B5DB765B5A704EE3E45AE94 /* Pods_Foodly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E3F4CFFF42A3BDCEF208FC /* Pods_Foodly.framework */; };
+		5EA44E87253E626508C2658C /* Pods_FoodlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2E24E959B1AFFC85CFDFA9 /* Pods_FoodlyTests.framework */; };
+		C31260242A484A54006EDD58 /* UIViewController-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31260232A484A54006EDD58 /* UIViewController-Extension.swift */; };
+		C31260292A485326006EDD58 /* DishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31260272A485326006EDD58 /* DishListTableViewCell.swift */; };
+		C312602A2A485326006EDD58 /* DishListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31260282A485326006EDD58 /* DishListTableViewCell.xib */; };
+		C312602D2A485614006EDD58 /* ListDishesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C312602C2A485614006EDD58 /* ListDishesViewController.swift */; };
 		C3201BFA2A435B8B002CE1F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3201BF92A435B8B002CE1F5 /* AppDelegate.swift */; };
 		C3201BFC2A435B8B002CE1F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3201BFB2A435B8B002CE1F5 /* SceneDelegate.swift */; };
-		C3201BFE2A435B8B002CE1F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3201BFD2A435B8B002CE1F5 /* ViewController.swift */; };
 		C3201C012A435B8B002CE1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3201BFF2A435B8B002CE1F5 /* Main.storyboard */; };
 		C3201C032A435B8C002CE1F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3201C022A435B8C002CE1F5 /* Assets.xcassets */; };
 		C3201C062A435B8C002CE1F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3201C042A435B8C002CE1F5 /* LaunchScreen.storyboard */; };
 		C3201C112A435B8C002CE1F5 /* FoodlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3201C102A435B8C002CE1F5 /* FoodlyTests.swift */; };
 		C3201C1B2A435B8C002CE1F5 /* FoodlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3201C1A2A435B8C002CE1F5 /* FoodlyUITests.swift */; };
 		C3201C1D2A435B8C002CE1F5 /* FoodlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3201C1C2A435B8C002CE1F5 /* FoodlyUITestsLaunchTests.swift */; };
+		C3201C2E2A435C99002CE1F5 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3201C2D2A435C99002CE1F5 /* OnboardingViewController.swift */; };
+		C3201C312A435F18002CE1F5 /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3201C302A435F18002CE1F5 /* UIView-Extension.swift */; };
+		C32085112A4460B600777F86 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32085102A4460B600777F86 /* OnboardingSlide.swift */; };
+		C32085132A4463E400777F86 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32085122A4463E400777F86 /* OnboardingCollectionViewCell.swift */; };
+		C32085162A44838500777F86 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32085152A44838500777F86 /* HomeViewController.swift */; };
+		C320851B2A44C2CA00777F86 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32085192A44C2CA00777F86 /* CategoryCollectionViewCell.swift */; };
+		C320851C2A44C2CA00777F86 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C320851A2A44C2CA00777F86 /* CategoryCollectionViewCell.xib */; };
+		C320851E2A44C43500777F86 /* DishCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C320851D2A44C43500777F86 /* DishCategory.swift */; };
+		C3240C782A49D0EC004AAD9E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3240C772A49D0EC004AAD9E /* Errors.swift */; };
+		C3240C7A2A49D715004AAD9E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3240C792A49D715004AAD9E /* Response.swift */; };
+		C336097A2A44C655001B9E6B /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33609792A44C655001B9E6B /* String-Extension.swift */; };
+		C36323D22A44D86E00CDFF27 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36323D12A44D86E00CDFF27 /* CardView.swift */; };
+		C36323D82A44DCA500CDFF27 /* DishPortraitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36323D62A44DCA500CDFF27 /* DishPortraitCollectionViewCell.swift */; };
+		C36323D92A44DCA500CDFF27 /* DishPortraitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36323D72A44DCA500CDFF27 /* DishPortraitCollectionViewCell.xib */; };
+		C36A208F2A48E8FF005C730B /* ListOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36A208E2A48E8FF005C730B /* ListOrdersViewController.swift */; };
+		C371A5D22A46391600C5665F /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = C371A5D12A46391600C5665F /* Dish.swift */; };
+		C3990FF62A48EB1E007B3DEF /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3990FF52A48EB1E007B3DEF /* Order.swift */; };
+		C39EB8452A4743EA00780A8D /* DishLandscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39EB8432A4743EA00780A8D /* DishLandscapeCollectionViewCell.swift */; };
+		C39EB8462A4743EA00780A8D /* DishLandscapeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39EB8442A4743EA00780A8D /* DishLandscapeCollectionViewCell.xib */; };
+		C39EB8492A475B4600780A8D /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39EB8482A475B4600780A8D /* DishDetailViewController.swift */; };
+		C3AF5A872A4A269700040162 /* AllDishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF5A862A4A269700040162 /* AllDishes.swift */; };
+		C3B32D5E2A498F08006B4886 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B32D5D2A498F08006B4886 /* NetworkManager.swift */; };
+		C3B32D602A498FE9006B4886 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B32D5F2A498FE9006B4886 /* Route.swift */; };
+		C3B32D622A499077006B4886 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B32D612A499077006B4886 /* Method.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +66,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15E3F4CFFF42A3BDCEF208FC /* Pods_Foodly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE7C06E836D9CE0C9739F3D /* Pods-FoodlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodlyTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodlyTests/Pods-FoodlyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A2E24E959B1AFFC85CFDFA9 /* Pods_FoodlyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodlyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C55D6A759B48E80999C641F /* Pods-Foodly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodly.debug.xcconfig"; path = "Target Support Files/Pods-Foodly/Pods-Foodly.debug.xcconfig"; sourceTree = "<group>"; };
+		7ACF9693D478B9AC363CD4EE /* Pods-Foodly-FoodlyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodly-FoodlyUITests.release.xcconfig"; path = "Target Support Files/Pods-Foodly-FoodlyUITests/Pods-Foodly-FoodlyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		96977EDDA152ADA826047C00 /* Pods_Foodly_FoodlyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodly_FoodlyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B907361B37740C3B9F5F08F6 /* Pods-FoodlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodlyTests.release.xcconfig"; path = "Target Support Files/Pods-FoodlyTests/Pods-FoodlyTests.release.xcconfig"; sourceTree = "<group>"; };
+		C31260232A484A54006EDD58 /* UIViewController-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController-Extension.swift"; sourceTree = "<group>"; };
+		C31260272A485326006EDD58 /* DishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListTableViewCell.swift; sourceTree = "<group>"; };
+		C31260282A485326006EDD58 /* DishListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishListTableViewCell.xib; sourceTree = "<group>"; };
+		C312602C2A485614006EDD58 /* ListDishesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDishesViewController.swift; sourceTree = "<group>"; };
 		C3201BF62A435B8B002CE1F5 /* Foodly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3201BF92A435B8B002CE1F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3201BFB2A435B8B002CE1F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3201BFD2A435B8B002CE1F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3201C002A435B8B002CE1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3201C022A435B8C002CE1F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3201C052A435B8C002CE1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +89,32 @@
 		C3201C162A435B8C002CE1F5 /* FoodlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3201C1A2A435B8C002CE1F5 /* FoodlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodlyUITests.swift; sourceTree = "<group>"; };
 		C3201C1C2A435B8C002CE1F5 /* FoodlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3201C2D2A435C99002CE1F5 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		C3201C302A435F18002CE1F5 /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
+		C32085102A4460B600777F86 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		C32085122A4463E400777F86 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		C32085152A44838500777F86 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C32085192A44C2CA00777F86 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		C320851A2A44C2CA00777F86 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		C320851D2A44C43500777F86 /* DishCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCategory.swift; sourceTree = "<group>"; };
+		C3240C772A49D0EC004AAD9E /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		C3240C792A49D715004AAD9E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		C33609792A44C655001B9E6B /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		C36323D12A44D86E00CDFF27 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C36323D62A44DCA500CDFF27 /* DishPortraitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPortraitCollectionViewCell.swift; sourceTree = "<group>"; };
+		C36323D72A44DCA500CDFF27 /* DishPortraitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishPortraitCollectionViewCell.xib; sourceTree = "<group>"; };
+		C36A208E2A48E8FF005C730B /* ListOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersViewController.swift; sourceTree = "<group>"; };
+		C371A5D12A46391600C5665F /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		C3990FF52A48EB1E007B3DEF /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		C39EB8432A4743EA00780A8D /* DishLandscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLandscapeCollectionViewCell.swift; sourceTree = "<group>"; };
+		C39EB8442A4743EA00780A8D /* DishLandscapeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishLandscapeCollectionViewCell.xib; sourceTree = "<group>"; };
+		C39EB8482A475B4600780A8D /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
+		C3AF5A862A4A269700040162 /* AllDishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDishes.swift; sourceTree = "<group>"; };
+		C3B32D5D2A498F08006B4886 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C3B32D5F2A498FE9006B4886 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		C3B32D612A499077006B4886 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		D850FA5766C649DBEB05CED0 /* Pods-Foodly-FoodlyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodly-FoodlyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Foodly-FoodlyUITests/Pods-Foodly-FoodlyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE5D7F381B29EF3589E57D5A /* Pods-Foodly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodly.release.xcconfig"; path = "Target Support Files/Pods-Foodly/Pods-Foodly.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B5DB765B5A704EE3E45AE94 /* Pods_Foodly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA44E87253E626508C2658C /* Pods_FoodlyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +138,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067414201A81411BE771CC3E /* Pods_Foodly_FoodlyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F5ED5AC76D505EAC0B26BA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C55D6A759B48E80999C641F /* Pods-Foodly.debug.xcconfig */,
+				DE5D7F381B29EF3589E57D5A /* Pods-Foodly.release.xcconfig */,
+				D850FA5766C649DBEB05CED0 /* Pods-Foodly-FoodlyUITests.debug.xcconfig */,
+				7ACF9693D478B9AC363CD4EE /* Pods-Foodly-FoodlyUITests.release.xcconfig */,
+				2BE7C06E836D9CE0C9739F3D /* Pods-FoodlyTests.debug.xcconfig */,
+				B907361B37740C3B9F5F08F6 /* Pods-FoodlyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C31260252A48525A006EDD58 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C31260262A485271006EDD58 /* DishTableViewCell */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		C31260262A485271006EDD58 /* DishTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C31260272A485326006EDD58 /* DishListTableViewCell.swift */,
+				C31260282A485326006EDD58 /* DishListTableViewCell.xib */,
+			);
+			path = DishTableViewCell;
+			sourceTree = "<group>";
+		};
+		C312602B2A4855EF006EDD58 /* LishDishes */ = {
+			isa = PBXGroup;
+			children = (
+				C312602C2A485614006EDD58 /* ListDishesViewController.swift */,
+			);
+			path = LishDishes;
+			sourceTree = "<group>";
+		};
 		C3201BED2A435B8B002CE1F5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +190,8 @@
 				C3201C0F2A435B8C002CE1F5 /* FoodlyTests */,
 				C3201C192A435B8C002CE1F5 /* FoodlyUITests */,
 				C3201BF72A435B8B002CE1F5 /* Products */,
+				3F5ED5AC76D505EAC0B26BA8 /* Pods */,
+				F198082E74DB61E29BB20541 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +208,13 @@
 		C3201BF82A435B8B002CE1F5 /* Foodly */ = {
 			isa = PBXGroup;
 			children = (
+				C3B32D5C2A498EE8006B4886 /* Networking */,
+				C3201C2F2A435F09002CE1F5 /* Extensions */,
+				C3201C2C2A435C52002CE1F5 /* Models */,
+				C3201C2B2A435C4A002CE1F5 /* CustomViews */,
+				C3201C292A435C3A002CE1F5 /* Views */,
 				C3201BF92A435B8B002CE1F5 /* AppDelegate.swift */,
 				C3201BFB2A435B8B002CE1F5 /* SceneDelegate.swift */,
-				C3201BFD2A435B8B002CE1F5 /* ViewController.swift */,
 				C3201BFF2A435B8B002CE1F5 /* Main.storyboard */,
 				C3201C022A435B8C002CE1F5 /* Assets.xcassets */,
 				C3201C042A435B8C002CE1F5 /* LaunchScreen.storyboard */,
@@ -127,6 +240,150 @@
 			path = FoodlyUITests;
 			sourceTree = "<group>";
 		};
+		C3201C292A435C3A002CE1F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C36A20902A48E902005C730B /* ListOrders */,
+				C312602B2A4855EF006EDD58 /* LishDishes */,
+				C39EB8472A475B2000780A8D /* DishDetail */,
+				C32085142A44830900777F86 /* Home */,
+				C3201C2A2A435C40002CE1F5 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C3201C2A2A435C40002CE1F5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				C3201C2D2A435C99002CE1F5 /* OnboardingViewController.swift */,
+				C32085122A4463E400777F86 /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C3201C2B2A435C4A002CE1F5 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				C31260252A48525A006EDD58 /* TableViewCells */,
+				C36323D02A44D85D00CDFF27 /* CardView */,
+				C32085172A44C28400777F86 /* CollectionViewCells */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C3201C2C2A435C52002CE1F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C32085102A4460B600777F86 /* OnboardingSlide.swift */,
+				C320851D2A44C43500777F86 /* DishCategory.swift */,
+				C371A5D12A46391600C5665F /* Dish.swift */,
+				C3990FF52A48EB1E007B3DEF /* Order.swift */,
+				C3AF5A862A4A269700040162 /* AllDishes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C3201C2F2A435F09002CE1F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3201C302A435F18002CE1F5 /* UIView-Extension.swift */,
+				C33609792A44C655001B9E6B /* String-Extension.swift */,
+				C31260232A484A54006EDD58 /* UIViewController-Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C32085142A44830900777F86 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C32085152A44838500777F86 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C32085172A44C28400777F86 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C39EB8422A4743C800780A8D /* DishLandscapeCollectionViewCell */,
+				C36323D32A44DC6B00CDFF27 /* DishPortraitCollectionViewCell */,
+				C32085182A44C29100777F86 /* CategoryCollectionViewCell */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		C32085182A44C29100777F86 /* CategoryCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C32085192A44C2CA00777F86 /* CategoryCollectionViewCell.swift */,
+				C320851A2A44C2CA00777F86 /* CategoryCollectionViewCell.xib */,
+			);
+			path = CategoryCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		C36323D02A44D85D00CDFF27 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				C36323D12A44D86E00CDFF27 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		C36323D32A44DC6B00CDFF27 /* DishPortraitCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C36323D62A44DCA500CDFF27 /* DishPortraitCollectionViewCell.swift */,
+				C36323D72A44DCA500CDFF27 /* DishPortraitCollectionViewCell.xib */,
+			);
+			path = DishPortraitCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		C36A20902A48E902005C730B /* ListOrders */ = {
+			isa = PBXGroup;
+			children = (
+				C36A208E2A48E8FF005C730B /* ListOrdersViewController.swift */,
+			);
+			path = ListOrders;
+			sourceTree = "<group>";
+		};
+		C39EB8422A4743C800780A8D /* DishLandscapeCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C39EB8432A4743EA00780A8D /* DishLandscapeCollectionViewCell.swift */,
+				C39EB8442A4743EA00780A8D /* DishLandscapeCollectionViewCell.xib */,
+			);
+			path = DishLandscapeCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		C39EB8472A475B2000780A8D /* DishDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C39EB8482A475B4600780A8D /* DishDetailViewController.swift */,
+			);
+			path = DishDetail;
+			sourceTree = "<group>";
+		};
+		C3B32D5C2A498EE8006B4886 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C3B32D5D2A498F08006B4886 /* NetworkManager.swift */,
+				C3B32D5F2A498FE9006B4886 /* Route.swift */,
+				C3B32D612A499077006B4886 /* Method.swift */,
+				C3240C772A49D0EC004AAD9E /* Errors.swift */,
+				C3240C792A49D715004AAD9E /* Response.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F198082E74DB61E29BB20541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15E3F4CFFF42A3BDCEF208FC /* Pods_Foodly.framework */,
+				96977EDDA152ADA826047C00 /* Pods_Foodly_FoodlyUITests.framework */,
+				6A2E24E959B1AFFC85CFDFA9 /* Pods_FoodlyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +391,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3201C202A435B8C002CE1F5 /* Build configuration list for PBXNativeTarget "Foodly" */;
 			buildPhases = (
+				E5D604BA32BEF2108F8034BD /* [CP] Check Pods Manifest.lock */,
 				C3201BF22A435B8B002CE1F5 /* Sources */,
 				C3201BF32A435B8B002CE1F5 /* Frameworks */,
 				C3201BF42A435B8B002CE1F5 /* Resources */,
+				8C81305E9E58745D3E8A111A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +410,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3201C232A435B8C002CE1F5 /* Build configuration list for PBXNativeTarget "FoodlyTests" */;
 			buildPhases = (
+				852964DAB67FF8D0BDDD8A85 /* [CP] Check Pods Manifest.lock */,
 				C3201C082A435B8C002CE1F5 /* Sources */,
 				C3201C092A435B8C002CE1F5 /* Frameworks */,
 				C3201C0A2A435B8C002CE1F5 /* Resources */,
@@ -169,9 +429,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3201C262A435B8C002CE1F5 /* Build configuration list for PBXNativeTarget "FoodlyUITests" */;
 			buildPhases = (
+				724AF5F42972F28A990DB9FB /* [CP] Check Pods Manifest.lock */,
 				C3201C122A435B8C002CE1F5 /* Sources */,
 				C3201C132A435B8C002CE1F5 /* Frameworks */,
 				C3201C142A435B8C002CE1F5 /* Resources */,
+				D611EF71D3EF86CBB69D641D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +493,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C320851C2A44C2CA00777F86 /* CategoryCollectionViewCell.xib in Resources */,
+				C312602A2A485326006EDD58 /* DishListTableViewCell.xib in Resources */,
 				C3201C062A435B8C002CE1F5 /* LaunchScreen.storyboard in Resources */,
+				C36323D92A44DCA500CDFF27 /* DishPortraitCollectionViewCell.xib in Resources */,
 				C3201C032A435B8C002CE1F5 /* Assets.xcassets in Resources */,
+				C39EB8462A4743EA00780A8D /* DishLandscapeCollectionViewCell.xib in Resources */,
 				C3201C012A435B8B002CE1F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +519,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		724AF5F42972F28A990DB9FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foodly-FoodlyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		852964DAB67FF8D0BDDD8A85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodlyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C81305E9E58745D3E8A111A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodly/Pods-Foodly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodly/Pods-Foodly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foodly/Pods-Foodly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D611EF71D3EF86CBB69D641D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodly-FoodlyUITests/Pods-Foodly-FoodlyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodly-FoodlyUITests/Pods-Foodly-FoodlyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foodly-FoodlyUITests/Pods-Foodly-FoodlyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5D604BA32BEF2108F8034BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foodly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3201BF22A435B8B002CE1F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3201BFE2A435B8B002CE1F5 /* ViewController.swift in Sources */,
+				C31260292A485326006EDD58 /* DishListTableViewCell.swift in Sources */,
+				C36A208F2A48E8FF005C730B /* ListOrdersViewController.swift in Sources */,
+				C3990FF62A48EB1E007B3DEF /* Order.swift in Sources */,
+				C3B32D5E2A498F08006B4886 /* NetworkManager.swift in Sources */,
+				C3240C782A49D0EC004AAD9E /* Errors.swift in Sources */,
+				C320851B2A44C2CA00777F86 /* CategoryCollectionViewCell.swift in Sources */,
+				C32085112A4460B600777F86 /* OnboardingSlide.swift in Sources */,
+				C3AF5A872A4A269700040162 /* AllDishes.swift in Sources */,
+				C3201C312A435F18002CE1F5 /* UIView-Extension.swift in Sources */,
 				C3201BFA2A435B8B002CE1F5 /* AppDelegate.swift in Sources */,
+				C3B32D622A499077006B4886 /* Method.swift in Sources */,
+				C31260242A484A54006EDD58 /* UIViewController-Extension.swift in Sources */,
+				C336097A2A44C655001B9E6B /* String-Extension.swift in Sources */,
 				C3201BFC2A435B8B002CE1F5 /* SceneDelegate.swift in Sources */,
+				C39EB8492A475B4600780A8D /* DishDetailViewController.swift in Sources */,
+				C3201C2E2A435C99002CE1F5 /* OnboardingViewController.swift in Sources */,
+				C3B32D602A498FE9006B4886 /* Route.swift in Sources */,
+				C32085162A44838500777F86 /* HomeViewController.swift in Sources */,
+				C39EB8452A4743EA00780A8D /* DishLandscapeCollectionViewCell.swift in Sources */,
+				C320851E2A44C43500777F86 /* DishCategory.swift in Sources */,
+				C36323D22A44D86E00CDFF27 /* CardView.swift in Sources */,
+				C312602D2A485614006EDD58 /* ListDishesViewController.swift in Sources */,
+				C32085132A4463E400777F86 /* OnboardingCollectionViewCell.swift in Sources */,
+				C371A5D22A46391600C5665F /* Dish.swift in Sources */,
+				C36323D82A44DCA500CDFF27 /* DishPortraitCollectionViewCell.swift in Sources */,
+				C3240C7A2A49D715004AAD9E /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +760,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +817,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -437,12 +829,14 @@
 		};
 		C3201C212A435B8C002CE1F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C55D6A759B48E80999C641F /* Pods-Foodly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 46UB79YYJT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Foodly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -450,6 +844,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,12 +860,14 @@
 		};
 		C3201C222A435B8C002CE1F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE5D7F381B29EF3589E57D5A /* Pods-Foodly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 46UB79YYJT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Foodly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,6 +875,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +891,7 @@
 		};
 		C3201C242A435B8C002CE1F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE7C06E836D9CE0C9739F3D /* Pods-FoodlyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +912,7 @@
 		};
 		C3201C252A435B8C002CE1F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B907361B37740C3B9F5F08F6 /* Pods-FoodlyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +933,7 @@
 		};
 		C3201C272A435B8C002CE1F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D850FA5766C649DBEB05CED0 /* Pods-Foodly-FoodlyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +952,7 @@
 		};
 		C3201C282A435B8C002CE1F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACF9693D478B9AC363CD4EE /* Pods-Foodly-FoodlyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

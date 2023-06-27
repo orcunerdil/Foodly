@@ -8,22 +8,29 @@
 import UIKit
 
 class DishDetailViewController: UIViewController {
-
+    @IBOutlet weak var dishImg: UIImageView!
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var descriptionLbl: UILabel!
+    @IBOutlet weak var caloriesLbl: UILabel!
+    @IBOutlet weak var dishTitle: UILabel!
+    
+    var dish : Dish!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        populateView()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    private func populateView(){
+        dishImg.kf.setImage(with: dish.image?.asURL)
+        dishTitle.text = dish.name
+        descriptionLbl.text = dish.description
+        caloriesLbl.text = dish.formattedCalories
+        print(dish.description)
     }
-    */
-
+    @IBAction func orderActionBtn(_ sender: UIButton) {
+    }
+    
+ 
 }

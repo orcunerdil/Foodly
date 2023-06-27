@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct DishCategory: Codable {
+    
+    let id, title, image : String?
+    
+}
