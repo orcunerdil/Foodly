@@ -16,6 +16,22 @@ struct NetworkManager {
                 request(route: .fethAllCategories, method: .get, completion: completion)
             }
     
+    func placeOrder(dishId: String, name: String, completion: @escaping (Result<Order, Error>) -> Void){
+        let params = ["name" : name]
+        
+        request(route: .placeOrder(dishId), method: .post, parameters: params, completion: completion)
+        
+    }
+    
+    func fetchCategoryDishes(categoryId: String,completion: @escaping(Result<[Dish],Error>) -> Void){
+        request(route: .fetchCategoriDishes(categoryId), method: .get, completion: completion)
+    }
+    
+    func fetchOrder(completion: @escaping(Result<[Order],Error>) -> Void){
+        request(route: .fetchOrders, method: .get, completion: completion)
+    }
+    
+    
     //Kısaca T, kodlanabilen veya decode edilebilen herhangi bir şey olabilir.
     private func request<T:Codable>(route : Route,
                                     method: Method,

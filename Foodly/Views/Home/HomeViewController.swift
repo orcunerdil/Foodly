@@ -23,7 +23,6 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
     
         
-        
         specialsCollectionView.delegate = self
         specialsCollectionView.dataSource = self
         categoryCollectionView.delegate = self

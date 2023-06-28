@@ -6,27 +6,38 @@
 //
 
 import UIKit
+import ProgressHUD
 
 class ListOrdersViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
-    var orders : [Order] = [
-        .init(id: "id", name: "Orcun Erdil", dish:
-                .init(id: "id1", name: "Mantı", image: "https://picsum.photos/100/200", description: "This is the best I ever tasted", calories: 1121)),
-        .init(id: "id", name: "Haydar Er", dish:
-                .init(id: "id1", name: "Turşu", image: "https://picsum.photos/100/200", description: "This is the best I ever tasted", calories: 1121)),
-        .init(id: "id", name: "Müslüm Erdil", dish:
-                .init(id: "id1", name: "Keşkek", image: "https://picsum.photos/100/200", description: "This is the best I ever tasted", calories: 1121)),
-        .init(id: "id", name: "Ali Erdil", dish:
-                .init(id: "id1", name: "Külbastı", image: "https://picsum.photos/100/200", description: "This is the best I ever tasted", calories: 1121))
-        
-    ]
+    var orders : [Order] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "Orders"
         registerCell()
+        
+        ProgressHUD.show()
+     
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        NetworkManager.shared.fetchOrder() { [weak self] (result) in
+            //table görünümü güncellenecek bu yuzden kendimize referans verirken weak self kullanmalıyız
+            switch result {
+                
+            case .success(let orders):
+                ProgressHUD.dismiss()
+                self?.orders = orders
+                self?.tableView.reloadData()
+            case .failure(let error):
+                ProgressHUD.showError(error.localizedDescription)
+            }
+            
+        }
     }
     
     private func registerCell(){

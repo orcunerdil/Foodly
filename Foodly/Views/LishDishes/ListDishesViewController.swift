@@ -6,29 +6,45 @@
 //
 
 import UIKit
+import ProgressHUD
 
 class ListDishesViewController: UIViewController {
-    @IBOutlet weak var tableView: UITableView!
+    
+  
+    @IBOutlet weak var tblView: UITableView!
     
     var categories : DishCategory!
     
-    var dishes :[Dish] = [
-        .init(id: "id1", name: "Garri", image: "https://picsum.photos/100/200", description: "This is the best I ever tastedThis is the best I ever tastedThis is the best I ever tastedThis is the best I ever tastedThis is the best I ever tastedThis is the best I ever tastedThis is the best I ever tastedThis is the best I ever tastedThis is the best I ever tastedThis is the best I ever tastedThis is the best I ever tastedThis is the best I ever tastedThis is the best I ever tasted", calories: 11),
-        .init(id: "id1", name: "Makarna", image: "https://picsum.photos/100/200", description: "This is the best I ever tasted", calories: 1121),
-        .init(id: "id1", name: "Pizza", image: "https://picsum.photos/100/200", description: "This is the best I ever tasted", calories: 141)
-    ]
+    var dishes :[Dish] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
- 
+          
+
         title = categories.title
-        
-        tableView.dataSource = self
-        tableView.delegate = self
+       
+        tblView.dataSource = self
+        tblView.delegate = self
         registerCells()
+        
+        ProgressHUD.show()
+        NetworkManager.shared.fetchCategoryDishes(categoryId: categories.id ?? "") { [weak self] (result) in
+            //table görünümü güncellenecek bu yuzden kendimize referans verirken weak self kullanmalıyız
+            switch result {
+            case .success(let dishes):
+                ProgressHUD.dismiss()
+                self?.dishes = dishes
+                self?.tblView.reloadData()
+            case .failure(let error):
+                ProgressHUD.showError(error.localizedDescription)
+            }
+            
+        }
+        
     }
+    
     private func registerCells(){
-        tableView.register(UINib(nibName: DishListTableViewCell.identifer, bundle: nil), forCellReuseIdentifier: DishListTableViewCell.identifer)
+        tblView.register(UINib(nibName: DishListTableViewCell.identifer, bundle: nil), forCellReuseIdentifier: DishListTableViewCell.identifer)
         
     }
 }

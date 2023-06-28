@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22113.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22089"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -438,36 +439,6 @@
             </objects>
             <point key="canvasLocation" x="2930.5343511450383" y="-35.91549295774648"/>
         </scene>
-        <!--List Dishes View Controller-->
-        <scene sceneID="t4L-Xd-rxI">
-            <objects>
-                <viewController storyboardIdentifier="ListDishesViewController" id="IHz-1e-PRR" customClass="ListDishesViewController" customModule="Foodly" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eIK-BZ-6hA">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="eAg-ZL-fid">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="818"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Ejq-Kw-27L"/>
-                        <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="eAg-ZL-fid" firstAttribute="bottom" secondItem="Ejq-Kw-27L" secondAttribute="bottom" id="53v-On-kLC"/>
-                            <constraint firstItem="eAg-ZL-fid" firstAttribute="trailing" secondItem="Ejq-Kw-27L" secondAttribute="trailing" id="JbE-DT-3R3"/>
-                            <constraint firstItem="eAg-ZL-fid" firstAttribute="top" secondItem="eIK-BZ-6hA" secondAttribute="top" id="X8u-GS-TER"/>
-                            <constraint firstItem="eAg-ZL-fid" firstAttribute="leading" secondItem="Ejq-Kw-27L" secondAttribute="leading" id="nIZ-Rn-VdC"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="tableView" destination="eAg-ZL-fid" id="BNu-T7-yWO"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="snX-wr-Tvi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3718.125" y="-34.859154929577464"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="OAa-d7-D67">
             <objects>
@@ -485,6 +456,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ifi-ti-6TM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1113.7404580152672" y="-35.211267605633807"/>
+        </scene>
+        <!--List Dishes View Controller-->
+        <scene sceneID="dQH-Hu-o6c">
+            <objects>
+                <viewController storyboardIdentifier="ListDishesViewController" id="RF4-2X-2VE" customClass="ListDishesViewController" customModule="Foodly" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bk1-in-l2f">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="XeO-5u-j0V">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nUd-Hn-x0I"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XeO-5u-j0V" firstAttribute="leading" secondItem="nUd-Hn-x0I" secondAttribute="leading" id="Ld1-J3-1CH"/>
+                            <constraint firstItem="nUd-Hn-x0I" firstAttribute="bottom" secondItem="XeO-5u-j0V" secondAttribute="bottom" id="M2Y-rt-RQP"/>
+                            <constraint firstItem="XeO-5u-j0V" firstAttribute="top" secondItem="nUd-Hn-x0I" secondAttribute="top" id="brq-fZ-Rnc"/>
+                            <constraint firstAttribute="trailing" secondItem="XeO-5u-j0V" secondAttribute="trailing" id="pll-BA-APm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tblView" destination="XeO-5u-j0V" id="4Lz-Qf-I34"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JEA-os-03g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3729" y="-36"/>
         </scene>
     </scenes>
     <resources>
