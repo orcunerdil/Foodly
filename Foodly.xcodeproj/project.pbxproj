@@ -32,6 +32,7 @@
 		C320851E2A44C43500777F86 /* DishCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C320851D2A44C43500777F86 /* DishCategory.swift */; };
 		C3240C782A49D0EC004AAD9E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3240C772A49D0EC004AAD9E /* Errors.swift */; };
 		C3240C7A2A49D715004AAD9E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3240C792A49D715004AAD9E /* Response.swift */; };
+		C33095502A4DC05A004125F0 /* UserDefaults-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C330954F2A4DC05A004125F0 /* UserDefaults-Extension.swift */; };
 		C336097A2A44C655001B9E6B /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33609792A44C655001B9E6B /* String-Extension.swift */; };
 		C36323D22A44D86E00CDFF27 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36323D12A44D86E00CDFF27 /* CardView.swift */; };
 		C36323D82A44DCA500CDFF27 /* DishPortraitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36323D62A44DCA500CDFF27 /* DishPortraitCollectionViewCell.swift */; };
@@ -99,6 +100,7 @@
 		C320851D2A44C43500777F86 /* DishCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCategory.swift; sourceTree = "<group>"; };
 		C3240C772A49D0EC004AAD9E /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		C3240C792A49D715004AAD9E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		C330954F2A4DC05A004125F0 /* UserDefaults-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults-Extension.swift"; sourceTree = "<group>"; };
 		C33609792A44C655001B9E6B /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
 		C36323D12A44D86E00CDFF27 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C36323D62A44DCA500CDFF27 /* DishPortraitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPortraitCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -289,6 +291,7 @@
 				C3201C302A435F18002CE1F5 /* UIView-Extension.swift */,
 				C33609792A44C655001B9E6B /* String-Extension.swift */,
 				C31260232A484A54006EDD58 /* UIViewController-Extension.swift */,
+				C330954F2A4DC05A004125F0 /* UserDefaults-Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -635,6 +638,7 @@
 				C320851B2A44C2CA00777F86 /* CategoryCollectionViewCell.swift in Sources */,
 				C32085112A4460B600777F86 /* OnboardingSlide.swift in Sources */,
 				C3AF5A872A4A269700040162 /* AllDishes.swift in Sources */,
+				C33095502A4DC05A004125F0 /* UserDefaults-Extension.swift in Sources */,
 				C3201C312A435F18002CE1F5 /* UIView-Extension.swift in Sources */,
 				C3201BFA2A435B8B002CE1F5 /* AppDelegate.swift in Sources */,
 				C3B32D622A499077006B4886 /* Method.swift in Sources */,
